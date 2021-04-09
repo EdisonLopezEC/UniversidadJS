@@ -1,0 +1,24 @@
+table{
+    width: 100%;
+}
+table, th ,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding:5px;
+}
+caption{
+    color:red;
+    font-family: 'Trocchi';
+    font-size: 50px;
+    line-height: 100px;
+}
+th{
+    background-color:blue;
+    color:white;
+}
+tr:nth-child(even){
+    background-color: aquamarine;
+}
+tr:nth-child(odd){
+    background-color:bisque;
+}
