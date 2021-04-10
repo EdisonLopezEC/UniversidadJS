@@ -25,25 +25,32 @@
         name="apellido"
         placeholder="Escribe tu apellido"
         required="true"
-      /><br /><br/>
+      /><br /><br />
 
-      <label for="email">Email: </label><br/>
-      <input
-        type="email"
-        id="email"
-        name="email"
-      /><br/><br/>
+      <label for="email">Email: </label><br />
+      <input type="email" id="email" name="email" /><br /><br />
 
-      <label for="edad">Edad: </label><br/>
-      <input
-        type="number"
-        id="edad"
-        step="any"
-        name="edad"
-      /><br/><br/>
+      <label for="edad">Edad: </label><br />
+      <input type="number" id="edad" step="any" name="edad" /><br /><br />
+
+      <label>Genero</label><br />
+      <input type="radio" id="femenino" name="genero" value="femenino" />
+      <label for="femenino">Femenino</label>
+      <input type="radio" id="masculino" name="genero" value="masculino" />
+      <label for="masculino">Maculino</label><br /><br />
+
+      <label>Genero de musica favorita</label><br />
+      <input type="checkbox" id="clasica" name="musica" value="clasica" />
+      <label>Clasica</label>
+      <input type="checkbox" id="jazz" name="musica" value="jazz" />
+      <label>Jazz</label><br/><br/>
 
       <input type="submit" valu="Enviar" />
-      <input type="submit" formnovalidate="formnovalidate" value="Enviar sin validar"/>
+      <input
+        type="submit"
+        formnovalidate="formnovalidate"
+        value="Enviar sin validar"
+      />
     </form>
   </body>
 </html>
