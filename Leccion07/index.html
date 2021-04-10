@@ -8,7 +8,7 @@
   </head>
   <body>
     <h1>Formularios en HTML</h1>
-    <form>
+    <form method="POST">
       <label for="nombre">Nombre: </label><br />
       <input
         type="text"
@@ -24,6 +24,14 @@
         id="apellido"
         name="apellido"
         placeholder="Escribe tu apellido"
+        required="true"
+      /><br /><br/>
+
+      <label for="password">Password: </label><br />
+      <input
+        type="password"
+        id="password"
+        name="password"
         required="true"
       /><br />
 
