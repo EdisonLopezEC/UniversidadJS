@@ -8,7 +8,7 @@
   </head>
   <body>
     <h1>Formularios en HTML</h1>
-    <form method="POST">
+    <form>
       <label for="nombre">Nombre: </label><br />
       <input
         type="text"
@@ -27,13 +27,20 @@
         required="true"
       /><br /><br/>
 
-      <label for="password">Password: </label><br />
+      <label for="email">Email: </label><br/>
       <input
-        type="password"
-        id="password"
-        name="password"
-        required="true"
-      /><br />
+        type="email"
+        id="email"
+        name="email"
+      /><br/><br/>
+
+      <label for="edad">Edad: </label><br/>
+      <input
+        type="number"
+        id="edad"
+        step="any"
+        name="edad"
+      /><br/><br/>
 
       <input type="submit" valu="Enviar" />
       <input type="submit" formnovalidate="formnovalidate" value="Enviar sin validar"/>
